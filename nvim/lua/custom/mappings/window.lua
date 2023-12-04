@@ -1,0 +1,28 @@
+vim.keymap.set("n", "<C-j>", function()
+	vim.cmd("wincmd j")
+end)
+vim.keymap.set("n", "<C-k>", function()
+	vim.cmd("wincmd k")
+end)
+vim.keymap.set("n", "<C-h>", function()
+	vim.cmd("wincmd h")
+end)
+vim.keymap.set("n", "<C-l>", function()
+	vim.cmd("wincmd l")
+end)
+
+vim.keymap.set("n", "<leader>v", function()
+	vim.cmd("vsplit")
+end)
+
+vim.keymap.set("n", "<leader>h", function()
+	vim.cmd("split")
+end)
+
+vim.keymap.set("n", "<leader>}", function()
+	vim.cmd("wincmd x")
+end)
+
+vim.keymap.set("n", "<leader>{", function()
+	vim.cmd("wincmd w")
+end)

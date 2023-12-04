@@ -1,0 +1,8 @@
+require("custom.mappings.buffers")
+require("custom.mappings.core")
+require("custom.mappings.files")
+require("custom.mappings.window")
+require("custom.mappings.navigation")
+require("custom.mappings.shortcuts")
+require("custom.mappings.moving")
+require("custom.mappings.configs")

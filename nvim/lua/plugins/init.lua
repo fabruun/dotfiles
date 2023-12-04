@@ -6,13 +6,15 @@ return {
 		-- install jsregexp (optional!).
 		build = "make install_jsregexp",
 	},
+	"nvim-lua/plenary.nvim", -- don't forget to add this one if you don't have it yet!
 	{
 		"ThePrimeagen/harpoon",
+		branch = "harpoon2",
+		requires = { { "nvim-lua/plenary.nvim" } },
 		config = function()
 			require("plugins.configs.harpoon")
 		end,
-	},
-	-- init.lua:
+	}, -- init.lua:
 	{
 		"nvim-telescope/telescope.nvim",
 		tag = "0.1.3",

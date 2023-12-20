@@ -1,6 +1,6 @@
 require("rose-pine").setup({
 	--- @usage 'auto'|'main'|'moon'|'dawn'
-	variant = "auto",
+	variant = "main",
 	--- @usage 'main'|'moon'|'dawn'
 	dark_variant = "moon",
 	bold_vert_split = false,

@@ -28,6 +28,7 @@ require("nvim-treesitter.configs").setup({
 		"xml",
 		"java",
 		"sql",
+		"bash",
 	},
 
 	-- Install parsers synchronously (only applied to `ensure_installed`)

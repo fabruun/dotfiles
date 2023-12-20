@@ -11,7 +11,6 @@ local opts = {
                 end,
             },
         }),
-        null_ls.builtins.code_actions.gomodifytags,
         null_ls.builtins.code_actions.impl,
         null_ls.builtins.code_actions.refactoring,
         null_ls.builtins.code_actions.shellcheck,
@@ -20,20 +19,16 @@ local opts = {
         null_ls.builtins.formatting.stylua,
         null_ls.builtins.formatting.fixjson,
         null_ls.builtins.formatting.biome,
-        null_ls.builtins.formatting.codespell,
         null_ls.builtins.formatting.ocdc,
         null_ls.builtins.formatting.yamlfmt,
         null_ls.builtins.formatting.sqlfluff.with({
             extra_args = { "--dialect", "mysql" },
         }),
         null_ls.builtins.formatting.tidy,
-        null_ls.builtins.formatting.rustfmt,
-        null_ls.builtins.formatting.phpcsfixer,
 
         -- Diagnostics
         null_ls.builtins.diagnostics.codespell,
         null_ls.builtins.diagnostics.jsonlint,
-        null_ls.builtins.diagnostics.revive,
         null_ls.builtins.diagnostics.stylelint,
         null_ls.builtins.diagnostics.tidy,
         null_ls.builtins.diagnostics.todo_comments,
@@ -42,10 +37,7 @@ local opts = {
         null_ls.builtins.diagnostics.checkstyle.with({
             extra_args = { "-c", "/google_checks.xml" },
         }),
-        null_ls.builtins.diagnostics.tsc,
         null_ls.builtins.diagnostics.zsh,
-        null_ls.builtins.diagnostics.php,
-        null_ls.builtins.diagnostics.phpcs,
         null_ls.builtins.diagnostics.yamllint,
         null_ls.builtins.diagnostics.sqlfluff.with({
             extra_args = { "--dialect", "mysql" },

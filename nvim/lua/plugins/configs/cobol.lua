@@ -1,0 +1,1 @@
+require("cobol.nvim").setup({})

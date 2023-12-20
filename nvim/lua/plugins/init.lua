@@ -336,16 +336,6 @@ return {
 		end,
 	},
 	{
-		"Arekkusuva/jira-nvim",
-		dependencies = {
-			"nvim-telescope/telescope.nvim",
-		},
-		build = "make build",
-		config = function()
-			require("plugins.configs.jira")
-		end,
-	},
-	{
 		"stevearc/oil.nvim",
 		config = function()
 			require("plugins.configs.oil")
@@ -363,15 +353,13 @@ return {
 		dependencies = { "nvim-tree/nvim-web-devicons" },
 	},
 	{
-		"kwakzalver/duckytype.nvim",
-		config = function()
-			require("plugins.configs.duckytype")
-		end,
-	},
-	{
 		"rmagatti/auto-session",
 		config = function()
 			require("plugins.configs.auto-session")
 		end,
 	},
+	{
+		"yorik1984/cobol.nvim",
+	},
+	"norcalli/snippets.nvim",
 }

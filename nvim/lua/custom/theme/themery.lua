@@ -1,4 +1,3 @@
-require("rose-pine")
 require("themery").setup({
 	themes = {
 		{
